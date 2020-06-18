@@ -309,3 +309,213 @@ export const defaultSections =
     ]
   }
 ]
+
+export const morePolls =
+  [
+    {
+      categoryPreface: '__**Additional polls**__\n A bunch more questions popped up over the past few days, so here, have additional polls.',
+      sections: [
+        {
+          title: 'The seed should remain public',
+          description: 'Having access to the world seed can be a tremendous help for planning bases, locating biomes, slime chunks and witch huts just to name a few. We\'ve used to keep the seed secret for the first couple of months to encourage exploration in the early game, but that was back with The Exploration Update.\n' +
+            'Unless you come at me with pitchforks I\'m calling the shots on this one, less things to argue about.',
+          options: [{
+            emoji: '🔥',
+            title: 'My pitchforks are ready, let\'s riot'
+          }]
+        },
+        {
+          title: 'Duping',
+          description: '> **Official stance on duping items**\n > We\'re fine with duping gravity blocks, tnt, rails and carpets. Duping should not be used excessively. Duping endgame items is not allowed. If your stuff gets duped, dispose of illegal items. \n\n' +
+            'These are really trivial to set up and have been part of the game for ages now. (technically it\'s the same category as bedrock breaking)\n' +
+            'specifically, it\'s these glitches:\n' +
+            '- [removing end portal blocks and launching the gravity block inside the end portal, making a falling block entity teleport into the end as it converts into a regular block, thus duplicating the block.](https://www.youtube.com/watch?v=wfeGyXJOCBw&t=35s)\n' +
+            '- [tnt meaning tnt in it\'s entity form, using weird behavior as it is pushed with slimeblocks](https://www.youtube.com/watch?v=CJAbnB4p52g)\n' +
+            '- [rail and carpet duping, using weird behavior as it is pushed with slimeblocks](https://www.youtube.com/watch?v=zNTjij5xyno) \n' +
+            '\n' +
+            'I wouldn\'t say any of these are overpowered nor need to be banned, however, gravity blocks, in particular sand and gravel could potentially have market value if it weren\'t for dupers. Similarly, concrete and concrete powder could both be sold/purchased. *A private sand duper, could in fact block the end spawn platform would a collection system be built, however in that case I would rule to hit it with communism and rebuild it for public use.*',
+          options: [{
+            emoji: '✅',
+            title: 'Our current duping policy is reasonable'
+          },
+          {
+            emoji: '👪',
+            title: 'Explicitly ban commercial duping (no duped items can be sold)'
+          }, {
+            emoji: '🤑',
+            title: 'Ban duping of gravity blocks altogether (this excludes dragon eggs)'
+          }, {
+            emoji: '💥',
+            title: 'Ban duping of tnt, make mining great again'
+          }, {
+            emoji: '🧞',
+            title: 'Ban duping of rails and carpets'
+          }]
+        },
+        {
+          title: 'New 1.16 gamerules',
+          description: '`forgiveDeadPlayers` Makes angered neutral mobs stop being angry when the targeted player dies nearby. On by default\n `universalAnger` Makes angered neutral mobs attack any nearby player, not just the player that angered them. Works best if you disable forgiveDeadPlayers. Off by default.\n This means, if someone would anger some pigmen, you can simply just stand and watch them die and the pigmen won\'t come after you.',
+          options: [{
+            emoji: '🍨',
+            title: 'Keep it vanilla on default values'
+          }, {
+            emoji: '🤺',
+            title: 'Don\'t forgive dead players'
+          }, {
+            emoji: '💢',
+            title: 'Enable universal anger'
+          }]
+        },
+        {
+          title: 'Petrified Oak Slab recipe',
+          description: 'This is more of an addon than anything, since the petrified oak slab (*a legacy item from old versions, oak slab that cannot burn and is mined with a pickaxe*) is not obtainable in survival. With firespread being disabled, it wouldn\'t serve any special purpose (*plus we now have fireproof wood in 1.16*), however it could be retextured to a dirt slab, for example. This texture could eithier be added to the elkia resourcepack or left up to the players',
+          options: [{
+            emoji: '👽',
+            title: 'Doesn\'t feel vanilla'
+          }, {
+            emoji: '⚖',
+            title: 'Too overpowered'
+          }, {
+            emoji: '👍',
+            title: 'Sounds cool'
+          }]
+        }
+      ]
+    }
+  ]
+
+export const evenMorePolls =
+  [
+    {
+      categoryPreface: '__**More additional polls!**__ Just claryfing some things\n',
+      sections: [
+        {
+          title: 'Release',
+          description: 'Mojang have blessed us with a 1.16 full release date (23rd June). Some people may not like this date, so here\'s some options.',
+          options: [{
+            emoji: '⏲️',
+            title: 'Meetup Day (24th June)'
+          }, {
+            emoji: '🥳',
+            title: 'One week later (30th June, gives us more time to get things ready without rushing them)'
+          }, {
+            emoji: '⌛',
+            title: 'Wait for first usable version of OptiFine (any game-breaking bugs should be ironed out by then)'
+          }]
+        }, {
+          title: 'Advertising round 2',
+          description: 'The community seems rather split about when to advertise. Because we\'re resetting soon, we need to make a decision, so please vote for one or more of these options:',
+          options: [{
+            emoji: '📢',
+            title: 'Advertise during the weekend after launch or earlier'
+          }, {
+            emoji: '😴',
+            title: 'Advertise two weeks after launch'
+          }, {
+            emoji: '📅',
+            title: 'Advertise more than a month after launch'
+          }, {
+            emoji: '📫',
+            title: 'Stick to an invite-based system for now'
+          }]
+        }
+      ]
+    }
+  ]
+
+export const evenMoreMorePolls =
+  [
+    {
+      categoryPreface: '__**More additional polls!**__ Just claryfing some things\n',
+      sections: [
+        {
+          title: 'Release',
+          description: 'Mojang have blessed us with a 1.16 full release date (23rd June). Some people may not like this date, so here\'s some options.',
+          options: [{
+            emoji: '⏲️',
+            title: 'Meetup Day (24th June)'
+          }, {
+            emoji: '🥳',
+            title: 'One week later (30th June, gives us more time to get things ready without rushing them)'
+          }, {
+            emoji: '⌛',
+            title: 'Wait for first usable version of OptiFine (any game-breaking bugs should be ironed out by then)'
+          }]
+        }, {
+          title: 'Advertising round 2',
+          description: 'The community seems rather split about when to advertise. Because we\'re resetting soon, we need to make a decision, so please vote for one or more of these options:',
+          options: [{
+            emoji: '📢',
+            title: 'Advertise during the weekend after launch or earlier'
+          }, {
+            emoji: '😴',
+            title: 'Advertise two weeks after launch'
+          }, {
+            emoji: '📅',
+            title: 'Advertise more than a month after launch'
+          }, {
+            emoji: '📫',
+            title: 'Stick to an invite-based system for now'
+          }]
+        }
+      ]
+    }
+  ]
+
+export const clarifyingDuping =
+  [
+    {
+      categoryPreface: '__**Clarifying Duping Poll**__ Due to criticism of the previous duping poll being ambiguous, here it is loud and clear.\n' +
+      'Again, I wouldn\'t say any of these are overpowered nor need to be banned, these dupes make the game more fun for technical players and veterans alike. This poll will run until launch, majority vote wins.',
+      sections: [
+        {
+          title: 'Duping policy',
+          description: '> **Official stance on duping items**\n > We\'re fine with duping gravity blocks, tnt, rails and carpets. Duping should not be used excessively. Duping endgame items is not allowed. If your stuff gets duped, dispose of illegal items. \n\n' +
+            'These are really trivial to set up and have been part of the game for ages now. (technically it\'s the same category as bedrock breaking) Are you fine with the current policy? Additionally, each method of duping is for a vote bellow.\n',
+          options: [{
+            emoji: '✅',
+            title: 'Our current duping policy is reasonable'
+          }, {
+            emoji: '👪',
+            title: 'Explicitly ban commercial duping in the rules (no duped items can be sold)'
+          }, {
+            emoji: '💥',
+            title: 'No duping should be allowed'
+          }]
+        }, {
+          title: 'Duping of gravity blocks',
+          description: '[removing end portal blocks and launching the gravity block inside the end portal, making a falling block entity teleport into the end as it converts into a regular block, thus duplicating the block.](https://www.youtube.com/watch?v=wfeGyXJOCBw&t=35s)\n' +
+          'Sand, Gravel, and Concrete powder are all grindy bitches to get. Proponents of banning duping of gravity blocks argue they should be sold/purchased instead to drive economy.',
+          options: [{
+            emoji: '⛔',
+            title: 'Ban duping of gravity blocks'
+          }, {
+            emoji: '✅',
+            title: 'Allow Duping of gravity blocks'
+          }]
+        }, {
+          title: 'Duping of TNT (entities)',
+          description: '[tnt meaning tnt in it\'s entity form, using weird behavior as it is pushed with slimeblocks](https://www.youtube.com/watch?v=CJAbnB4p52g)\n' +
+          'This dupe is actually really useful as it allows for quickly leveling large areas with machines like the WorldEater and can power TNT blast chambers.',
+          options: [{
+            emoji: '⛔',
+            title: 'Ban duping of TNT (entities)'
+          }, {
+            emoji: '✅',
+            title: 'Allow Duping of TNT (entities)'
+          }]
+        }, {
+          title: 'Duping of Rails and Carpets',
+          description: '[rail and carpet duping, using weird behavior as it is pushed with slimeblocks](https://www.youtube.com/watch?v=zNTjij5xyno)\n' +
+          'Again, a really useful dupe. Rails and carpets being relatively easy to craft as is, having unlimited access is neat. Carpets can be used to power a furnace (although it\'s not the best fuel source).',
+          options: [{
+            emoji: '⛔',
+            title: 'Ban duping of Rails and Carpets'
+          }, {
+            emoji: '✅',
+            title: 'Allow Duping of Rails and Carpets'
+          }]
+        }
+      ]
+    }
+  ]

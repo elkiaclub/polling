@@ -1,6 +1,6 @@
 import Discord from 'discord.js'
 import dotenv from 'dotenv'
-import { defaultSections } from './sections.js'
+import { defaultSections, morePolls, evenMorePolls, clarifyingDuping } from './sections.js'
 const client = new Discord.Client()
 dotenv.config()
 
@@ -13,8 +13,15 @@ client.on('ready', () => {
 
 client.on('message', async (msg) => {
   // initial message
-  if (msg.content === 'defaultPolling') {
-    for (const category of defaultSections) {
+  if (msg.content === 'defaultPolling' || msg.content === 'morePolls' || msg.content === 'evenMorePolls' || msg.content === 'clarifyingDuping') {
+    const polls = msg.content === 'defaultPolling' ? defaultSections
+      : msg.content === 'morePolls' ? morePolls
+        : msg.content === 'evenMorePolls' ? evenMorePolls
+          : msg.content === 'clarifyingDuping' ? clarifyingDuping
+            : null
+    if (!polls) { return }
+    await msg.delete()
+    for (const category of polls) {
       await msg.channel.send(category.categoryPreface)
       for (const section of category.sections) {
         // set up message

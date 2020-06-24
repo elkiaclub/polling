@@ -519,3 +519,48 @@ export const clarifyingDuping =
       ]
     }
   ]
+
+export const seedPolls =
+  [
+    {
+      categoryPreface: '__**Seed Poll**__ We\'ve narrowed down the seed submissions down to 5 finalists, check a look.',
+      sections: [
+        {
+          title: '311077508626832',
+          image: 'https://i.imgur.com/CvedMdG.jpg',
+          options: [{
+            emoji: '🏠',
+            title: 'I want this to be our new home'
+          }]
+        }, {
+          title: '-7407223387392437721',
+          image: 'https://i.imgur.com/PgoJDYD.jpg',
+          options: [{
+            emoji: '🏠',
+            title: 'I want this to be our new home'
+          }]
+        }, {
+          title: '-2914749337158523229',
+          image: 'https://i.imgur.com/PD8zQFY.jpg',
+          options: [{
+            emoji: '🏠',
+            title: 'I want this to be our new home'
+          }]
+        }, {
+          title: '66966175304215',
+          image: 'https://i.imgur.com/ZOBncsY.jpg',
+          options: [{
+            emoji: '🏠',
+            title: 'I want this to be our new home'
+          }]
+        }, {
+          title: '44156293566583',
+          image: 'https://i.imgur.com/Yxje3hc.jpg',
+          options: [{
+            emoji: '🏠',
+            title: 'I want this to be our new home'
+          }]
+        }
+      ]
+    }
+  ]
